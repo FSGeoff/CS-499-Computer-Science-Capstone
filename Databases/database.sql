@@ -107,7 +107,7 @@ FROM Customers c
          INNER JOIN Orders o ON c.CustomerID = o.CustomerID
          LEFT JOIN RMA r ON o.OrderID = r.OrderID;
 
---Utilize the Stored Procedure, Function, and View in Your Application
+--Utilize the Stored Procedure, Function, and View in the Application
 SELECT
     c.FirstName,
     c.LastName,
